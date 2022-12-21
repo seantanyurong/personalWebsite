@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
+
 function withOpacity(variableName) {
   return ({ opacityValue }) => {
     if (opacityValue !== undefined) {
@@ -58,7 +59,9 @@ module.exports = {
       transparent: "transparent",
     },
     fontFamily: {
-      mono: ["IBM Plex Mono", "monospace"],
+      // mono: ["IBM Plex Mono", "monospace"],
+      mono: ['Source Sans Pro', 'sans-serif'],
+
     },
     // },
   },
