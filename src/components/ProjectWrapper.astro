@@ -1,0 +1,20 @@
+---
+import ProjectCard from "./ProjectCard.astro";
+
+const { projects } = Astro.props as IProjects;
+
+interface IProject {
+  title: string;
+  isFeatured: boolean;
+  thumbnail: string;
+  githubUrl: string;
+  liveUrl: string;
+}
+interface IProjects {
+  projects: IProject[];
+}
+---
+
+<div class="grid sm:grid-cols-2 grid-cols-1 gap-4 my-16">
+  {projects.map(project => <ProjectCard projectDetail={project} />)}
+</div>
