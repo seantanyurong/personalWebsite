@@ -8,7 +8,7 @@ draft: false
 tags:
   - founder
 ogImage: ""
-description: A quick update on our next stage.
+description: An update as we progress onto the next stage.
 ---
 
 So a while ago, I wrote a post about how I was considering building an entrepreneurial community.

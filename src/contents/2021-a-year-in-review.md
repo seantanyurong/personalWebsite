@@ -8,9 +8,7 @@ draft: false
 tags:
   - docs
 ogImage: ""
-description:
-  Some rules & recommendations for creating or adding new posts using AstroPaper
-  theme.
+description: Not too bad of a year.
 ---
 
 ## Table of contents

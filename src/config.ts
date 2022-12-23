@@ -3,9 +3,9 @@ import type { SocialObjects } from "./types";
 export const SITE = {
   website: "http://seantanyurong.com/",
   author: "Sean Tan",
-  desc: "An average man with above average dreams.",
+  desc: "Building stuff.",
   title: "Sean Tan • Documentation",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "displayImage.jpg",
   lightAndDarkMode: true,
   postPerPage: 6,
 };
