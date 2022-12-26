@@ -6,7 +6,7 @@ slug: at-21-i-have-just-earned
 featured: true
 draft: false
 tags:
-  - freelancing
+  - freelancer
 ogImage: ""
 description: Just a quick tip.
 ---

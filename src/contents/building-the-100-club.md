@@ -1,7 +1,7 @@
 ---
 author: Sean Tan
 datetime: 2022-05-28T15:22:00Z
-title: "We're building The 100 Club (an update)."
+title: "We're Building The 100 Club."
 slug: building-the-100-club
 featured: true
 draft: false

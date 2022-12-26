@@ -6,7 +6,7 @@ slug: 2021-a-year-in-review
 featured: true
 draft: false
 tags:
-  - docs
+  - life
 ogImage: ""
 description: Not too bad of a year.
 ---

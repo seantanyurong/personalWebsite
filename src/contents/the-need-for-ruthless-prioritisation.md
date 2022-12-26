@@ -6,7 +6,7 @@ slug: the-need-for-ruthless-prioritisation
 featured: false
 draft: false
 tags:
-  - founder
+  - life
 ogImage: ""
 description: Am I prioritising?
 ---
