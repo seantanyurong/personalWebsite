@@ -15,6 +15,13 @@ export const info = {
       liveUrl: "https://olympusorigins.com/",
     },
     {
+      title: "Malcolm in the Middle",
+      isFeatured: true,
+      thumbnail: "/assets/portfolio-8.png",
+      // githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      liveUrl: "https://malcolminthemiddle.netlify.app/",
+    },
+    {
       title: "Punchin",
       isFeatured: true,
       thumbnail: "/assets/portfolio-3.png",
@@ -27,6 +34,13 @@ export const info = {
       thumbnail: "/assets/portfolio-4.png",
       // githubUrl: "https://github.com/uzzii-21/astro-portfolio",
       liveUrl: "https://oo-gmkart.netlify.app/",
+    },
+    {
+      title: "NodeFlair Clone",
+      isFeatured: true,
+      thumbnail: "/assets/portfolio-9.png",
+      // githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      liveUrl: "https://seantanyurong-nodeflair-assignment.vercel.app/",
     },
     {
       title: "Olympus Pages",
