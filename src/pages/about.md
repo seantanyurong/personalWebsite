@@ -22,10 +22,10 @@ title: "About"
 
 ## my core tech stack (MERN)
 
-A web developer at my core
+A full stack web developer at my core
 
 1. JavaScript / TypeScript
-2. React
+2. ReactJS / NextJS
 3. Express
 4. MongoDB
 5. Node.js
@@ -33,9 +33,8 @@ A web developer at my core
 
 ## other tech I've dabbled with
 
-1. Java
-2. T3 stack (NextJS, tRPC, Prisma)
-3. GitHub
-4. CLI
-5. Bootstrap, SCSS
-6. HTML, CSS
+1. Java (Jakarta EE, JPA)
+2. Python (Jupyter)
+3. MySQL
+4. T3 stack (NextJS, tRPC, Prisma)
+5. HTML, CSS, SCSS, Bootstrap
