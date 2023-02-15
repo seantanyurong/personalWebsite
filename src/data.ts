@@ -8,6 +8,13 @@ export const info = {
       liveUrl: "https://the100club.io/",
     },
     {
+      title: "Donna",
+      isFeatured: true,
+      thumbnail: "/assets/portfolio-10.png",
+      // githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      liveUrl: "https://meetyourdonna.netlify.app/",
+    },
+    {
       title: "Olympus Origins",
       isFeatured: true,
       thumbnail: "/assets/portfolio-2.png",
