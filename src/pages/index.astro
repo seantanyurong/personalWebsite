@@ -9,6 +9,13 @@ import getSortedPosts from "@utils/getSortedPosts";
 import slugify from "@utils/slugify";
 import type { Frontmatter } from "src/types";
 import Socials from "@components/Socials.astro";
+import MainAlt from "../layouts/MainAlt.astro";
+
+import { info } from "../data";
+
+import ProjectsWrapper from "../components/ProjectWrapper.astro";
+
+const Projects = info.projects.map(project => project);
 
 const posts = await Astro.glob<Frontmatter>("../contents/**/*.md");
 
@@ -22,7 +29,7 @@ const featuredPosts = sortedPosts.filter(
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Hi, I'm Sean</h1>
+      <h1>Hi, I'm Sean Tan</h1>
       <!-- <a
         target="_blank"
         href="/rss.xml"
@@ -40,12 +47,24 @@ const featuredPosts = sortedPosts.filter(
       </a> -->
 
       <p>
+        I'm <b>a 22 y/o full stack web developer</b>, with experience working as
+        a Top 3% Freelancer on Upwork. In the day, I'm a 1st class honours
+        Information Systems student at the National University of Singapore, and
+        at night, I'm the co-founder of The 100 Club.
+      </p>
+      <p>
+        In addition to building things, you'll often find me playing Magic the
+        Gathering, painting Warhammer miniatures or reading books in my free
+        time.
+      </p>
+
+      <!-- <p>
         I'm <b>a 22 y/o full stack web developer</b>, with a background in
         operations, sales and marketing. But I like to think my real edge comes
         from being able to jump into the deep end of the pool and thriving by
         learning things quickly along the way.
-      </p>
-      <p>
+      </p> -->
+      <!-- <p>
         Building boring businesses that I can enable through tech is something
         that I'm incredibly passionate about - ironic, I know.
       </p>
@@ -60,7 +79,7 @@ const featuredPosts = sortedPosts.filter(
           href="/posts"
           class="underline">my life repository</a
         >, and reach out if there's anything I can do to help.
-      </p>
+      </p> -->
       <!-- <p>
         Read the blog posts or check
         <LinkButton
@@ -77,8 +96,11 @@ const featuredPosts = sortedPosts.filter(
     </section>
 
     <Hr />
+    <MainAlt>
+      <ProjectsWrapper projects={Projects} />
+    </MainAlt>
 
-    {
+    <!-- {
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
@@ -96,9 +118,9 @@ const featuredPosts = sortedPosts.filter(
           <Hr />
         </>
       )
-    }
+    } -->
 
-    <section id="recent-posts">
+    <!-- <section id="recent-posts">
       <h2>Recent Posts</h2>
       <ul>
         {
@@ -124,7 +146,7 @@ const featuredPosts = sortedPosts.filter(
           </svg>
         </LinkButton>
       </div>
-    </section>
+    </section> -->
   </main>
 
   <Footer />

@@ -4,7 +4,7 @@ datetime: 2022-01-02T15:22:00Z
 title: "2022: A Year in Review."
 slug: 2022-a-year-in-review
 featured: false
-draft: false
+draft: true
 tags:
   - life
 ogImage: ""

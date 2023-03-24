@@ -1,0 +1,19 @@
+---
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+---
+
+<main id="main-content">
+  <slot />
+</main>
+
+<style>
+  #main-content {
+    @apply max-w-3xl mx-auto px-4 pb-12 w-full;
+  }
+  #main-content h1 {
+    @apply font-bold text-2xl sm:text-3xl;
+  }
+  #main-content p {
+    @apply mt-2 mb-6 italic;
+  }
+</style>
